@@ -1,4 +1,4 @@
-# Intro
+# Deploying a MongoDB database With a user setup
 
 This repo gives an example to how a mongoDB container will deploy using docker-compose with a script to run that will set the mongoDB instance's Admin user and also a DB with a user to the DB.
 
