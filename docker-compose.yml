@@ -1,0 +1,16 @@
+version: "3"
+services:  
+  mongo:
+    container_name: mongo-user-setup
+    image: mongo
+    ports:
+      - "3031:27017"
+    volumes:
+      - ./data/db/:/data/db
+      - ./db-config:/db-config
+    environment:
+      DB_ADMIN_USERNAME: '' 
+      DB_ADMIN_PASS: ''
+      DB_USERNAME: ''
+      DB_PASS: ''
+      DB_NAME: ''
